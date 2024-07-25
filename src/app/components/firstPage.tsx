@@ -1,9 +1,10 @@
 'use client';
 import React from 'react';
 
+
 const FirstPage: React.FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-200">
+      <div className="flex items-center justify-center min-h-screen bg-cover bg-center bg-[url('https://imgs.search.brave.com/OUrqcJ48zQRQiN0JUL9Dhb_j8E1KVk5G8wdvCho3TKQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMTA4/ODYyNy5qcGc')]  bg-blur-lg">
       <div className="bg-white p-8 rounded-lg shadow-xl w-96">
         <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-800">Predict Score</h2>
         <form className="space-y-6">
@@ -13,15 +14,15 @@ const FirstPage: React.FC = () => {
               id="input1" 
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              <option value="" disabled selected>Select a Batting team</option>
-              <option value="Mumbai Indians">Mumbai Indians</option>
-              <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
-              <option value="Chennai Super Kings">Chennai Super Kings</option>
-              <option value="Rajasthan Royals">Rajasthan Royals</option>
-              <option value="Kings XI Punjab">Kings XI Punjab</option>
-              <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
-              <option value="Delhi Daredevils">Delhi Daredevils</option>
-              <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+              <option className='text-black' value="" disabled selected>Select a Batting team</option>
+              <option className='text-black' value="Mumbai Indians">Mumbai Indians</option>
+              <option className='text-black' value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+              <option className='text-black' value="Chennai Super Kings">Chennai Super Kings</option>
+              <option className='text-black' value="Rajasthan Royals">Rajasthan Royals</option>
+              <option className='text-black' value="Kings XI Punjab">Kings XI Punjab</option>
+              <option className='text-black' value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+              <option className='text-black' value="Delhi Daredevils">Delhi Daredevils</option>
+              <option className='text-black' value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
             </select>
           </div>
           <div>
@@ -30,15 +31,15 @@ const FirstPage: React.FC = () => {
               id="input2" 
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              <option value="" disabled selected>Select a Bowling team</option>
-              <option value="Mumbai Indians">Mumbai Indians</option>
-              <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
-              <option value="Chennai Super Kings">Chennai Super Kings</option>
-              <option value="Rajasthan Royals">Rajasthan Royals</option>
-              <option value="Kings XI Punjab">Kings XI Punjab</option>
-              <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
-              <option value="Delhi Daredevils">Delhi Daredevils</option>
-              <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+              <option className='text-black' value="" disabled selected>Select a Bowling team</option>
+              <option className='text-black' value="Mumbai Indians">Mumbai Indians</option>
+              <option className='text-black' value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+              <option className='text-black' value="Chennai Super Kings">Chennai Super Kings</option>
+              <option className='text-black' value="Rajasthan Royals">Rajasthan Royals</option>
+              <option className='text-black' value="Kings XI Punjab">Kings XI Punjab</option>
+              <option className='text-black' value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+              <option className='text-black' value="Delhi Daredevils">Delhi Daredevils</option>
+              <option className='text-black' value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
             </select>
           </div>
           <div className="space-y-4">
