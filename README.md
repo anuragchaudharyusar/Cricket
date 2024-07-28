@@ -1,8 +1,4 @@
-# Cricket
-
-Sure! Here is a README file for your project:
-
-# Cricket Score Predictor
+# Cricket Score Predictor (CSP)
 This project is a Cricket Score Predictor application built using Flask for the backend and Next.js for the frontend. The backend uses a machine learning model to predict the score of a cricket match based on input features.
 
 # Project Structure
@@ -33,6 +29,7 @@ Cricket
 │
 └── docker-compose.yml
 # Prerequisites
+Next.js
 Docker
 Docker Compose
 
