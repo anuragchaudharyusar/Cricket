@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "django": "^1.0.0",
     "next": "^14.2.5",
+    "psycopg2-binary": "^0.0.1",
     "react": "^18",
     "react-dom": "^18"
   },

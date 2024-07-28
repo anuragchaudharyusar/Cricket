@@ -18,10 +18,6 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-#from sklearn.linear_model import LinearRegression
-lin = LinearRegression()
-lin.fit(X_train,y_train)
-
 #from sklearn.ensemble import RandomForestRegressor
 lin = RandomForestRegressor(n_estimators=100,max_features=None)
 lin.fit(X_train,y_train)
