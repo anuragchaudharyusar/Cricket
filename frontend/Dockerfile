@@ -1,7 +1,7 @@
-# Use an official Node.js runtime as a parent image
+# Use the official Node.js image
 FROM node:18
 
-# Set the working directory
+# Create and change to the app directory
 WORKDIR /app
 
 # Copy package.json and package-lock.json
@@ -13,11 +13,11 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Build the application
+# Build the Next.js app
 RUN npm run build
 
-# Make port 3000 available to the world outside this container
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Run the app
+# Start the Next.js server
 CMD ["npm", "start"]
